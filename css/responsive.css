@@ -1,0 +1,195 @@
+@media (max-width: 991px) {  
+    .top-part {
+        display: none;
+    }
+    .desktop-logo {
+        display: none;
+    }
+    .mobile-logo{
+        display: inline-block;
+        font-size: 24px;
+        color: #fff!important;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1;
+    }
+    ul.search {
+        justify-content: center;
+    }
+    .slide-content p {
+        display: none;
+    }
+    .slide-content h5 {
+        font-size: 18px;     
+    }
+    .slide-content h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .site-button {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 30px;
+        margin-top: 0px;
+    }
+    .pogoSlider {     
+        padding-bottom: 40% !important;
+    }
+    .slide-content {        
+        width: 80%;
+    }
+    .counter-content {     
+        flex-direction: column;
+    }
+    .counter-content > img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .time_info ul li {     
+        padding: 0 10px;        
+        font-size: 14px;                
+    }
+    .time_info {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .time_info ul li strong {     
+        font-size: 30px;
+    }
+    .counter-content .content {
+        text-align: center;
+    }
+    .enroll-list {     
+        flex-direction: column;
+    }
+    span.number {
+        margin-right: 0px;
+        width: 40px!important;
+        height: 40px!important;        
+        margin-bottom: 20px;
+    }
+    .enroll-list span.number:before {
+        display: none;
+    }
+    .oc-content .site-button {     
+        top: -17px;
+    }
+    .our-courses img {
+        margin: 0 auto;
+    }
+    .newsletter-sec .row {
+        display: block;     
+    }
+    .newsletter-sec .input-group {
+        margin-top: 20px;
+    }
+    .newsletter-sec .site-title {
+        text-align: center;
+    }
+    .newsletter-sec .subtitle {
+        text-align: center;
+    }    
+    .footer-widget-title {     
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+    .navbar-default .navbar-toggle {        
+        text-align: center;
+        display: block;        
+        color: #000;
+        font-weight: 500;
+        border-color: #000;
+        position: relative;
+    }    
+    header .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+        color: #fff;
+    }
+    header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    header .navbar-default .navbar-nav > li > a:after {
+        display: none;
+    }
+    header .navbar-default .navbar-nav > li:hover {
+        background: #373435!important;     
+        margin: 2px 0;
+    }
+    header .navbar-default .navbar-nav > li:hover a{
+        color: #fff!important;
+    }    
+    .site-title {        
+        font-size: 20px;
+    }
+    
+    /* navbar Collpase issue (above 767px) */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    /* navbar Collpase issue (above 767px) */
+}
+
+@media (max-width: 600px){
+    .slide-content h3 {
+        font-size: 14px;
+        line-height: 18px;        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .slide-content h5 {
+        font-size: 12px;     
+        line-height: 1;        
+    }
+    .site-button {
+        font-size: 12px;
+        line-height: 18px;             
+        padding: 5px 20px;
+        margin-top: 0px;
+    }
+    .newsletter-btn {
+        min-height: 40px;     
+        padding: 0 15px;        
+    }
+    .newsletter-sec input.form-control {
+        min-height: 40px;     
+    }
+}
